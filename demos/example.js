@@ -2,7 +2,10 @@
 var EP = require('./../index.js');
 
 var dr = new EP.SVGDriver;
-var p = new EP.Printer(dr);
+var p = new EP.Printer(dr, {
+    paper_width: 2500,
+    dpi: 720,
+});
 
 var ESC = String.fromCharCode(27);
 var k15 = String.fromCharCode(15);
