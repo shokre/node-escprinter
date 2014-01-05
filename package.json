@@ -3,6 +3,6 @@
   "version": "0.0.0",
   "description": "ESC/P2 printer command emulator with SVG output.",
   "main": "index.js",
-  "author": "shokre",
+  "author": "shokre <kbrlek@gmail.com>",
   "license": "MIT"
 }
