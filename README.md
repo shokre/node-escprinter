@@ -9,7 +9,7 @@ ported to nodejs from https://code.google.com/p/ukncbtl/
 ## Example
 
 ```js
-var EP = require('./../index.js');
+var EP = require('node-escprinter');
 
 var dr = new EP.SVGDriver;
 var p = new EP.Printer(dr, {
