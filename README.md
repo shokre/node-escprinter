@@ -36,4 +36,4 @@ dr.save('out.svg');
 ```
 
 creates output:
-![Image](../blob/master/demos/out.svg?raw=true)
+![Image](../master/demos/out.svg?raw=true)
