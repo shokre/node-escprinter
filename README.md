@@ -36,4 +36,4 @@ dr.save('out.svg');
 ```
 
 creates output:
-![Image](https://raw.github.com/shokre/node-escprinter/master/demos/out.svg)
+![Image](https://rawgithub.com/shokre/node-escprinter/master/demos/out.svg)
