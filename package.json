@@ -1,0 +1,8 @@
+{
+  "name": "node-escprinter",
+  "version": "0.0.0",
+  "description": "ESC/P2 printer command emulator with SVG output.",
+  "main": "index.js",
+  "author": "shokre",
+  "license": "MIT"
+}
