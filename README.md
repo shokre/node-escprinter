@@ -21,7 +21,7 @@ var ESC = String.fromCharCode(27);
 var k15 = String.fromCharCode(15);
 var k18 = String.fromCharCode(18);
 
-p.print('normal '+ ESC+'W1WIDE' + ESC + 'W0');
+p.print('normal, ' + ESC + 'W1WIDE' + ESC + 'W0, ' + ESC + '-1Underlined' + ESC + '-0');
 p.print('\n\r');
 p.print('Normal (PICA)\n\r');
 p.print(ESC+ 'MCompressed (ELITE)\n\r');
