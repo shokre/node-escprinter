@@ -1,7 +1,7 @@
 
 var EP = require('./../index.js');
 
-var dr = new EP.SVGDriver;
+var dr = new EP.SVGDriver(0.15);
 var p = new EP.Printer(dr, {
     paper_width: 2500,
     dpi: 720,
