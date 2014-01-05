@@ -4,7 +4,6 @@ var EP = require('./../index.js');
 var dr = new EP.SVGDriver;
 var p = new EP.Printer(dr);
 
-dr.WriteBeginning();
 var ESC = String.fromCharCode(27);
 var k15 = String.fromCharCode(15);
 var k18 = String.fromCharCode(18);
@@ -20,5 +19,4 @@ p.print('0....1....2....');
 p.print('0....1....2....');
 p.print('0....1....2....');
 p.drawMargins();
-dr.WriteEnding();
 dr.save('out.svg');
